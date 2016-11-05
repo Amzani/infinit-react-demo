@@ -1,0 +1,75 @@
+/* Bad and ugly reset */
+* { margin: 0; padding: 0; border: 0; }
+
+
+
+@font-face {
+    font-family: Al-Jazeera-Arabic-Bold;
+    src: url('http://sahifa.appyala.com/css/une/fonts/Al-Jazeera-Arabic-Bold.eot');
+    src: url('http://sahifa.appyala.com/css/une/fonts/Al-Jazeera-Arabic-Bold.eot?#iefix') format('embedded-opentype'),
+             url('http://sahifa.appyala.com/css/une/fonts/Al-Jazeera-Arabic-Bold.woff') format('woff'),
+             url('http://sahifa.appyala.com/css/une/fonts/Al-Jazeera-Arabic-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html {
+    font-family: Al-Jazeera-Arabic-Bold, "arabic typesetting", serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Al-Jazeera-Arabic-Bold, "arabic typesetting", serif;
+    font-weight: 400;
+}
+
+body {
+    font-family: Al-Jazeera-Arabic-Bold, "arabic typesetting", serif;
+}
+
+
+a {
+  /* height: auto; */
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    margin: 0 auto;
+    padding : 0px;
+    direction: rtl;
+    padding: 2%;
+    background-color: #C10202;
+}
+
+.clear {
+    clear: both;
+}
+
+.post_item {
+    margin-bottom: 4%;
+    background-color: white;
+}
+
+.post_item img{
+    width: 100%; /* 200 / 960 */
+    max-width: 100%;
+}
+
+.content {
+    width:  100%; /* 757 / 960 */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: Al-Jazeera-Arabic-Bold,  "arabic typesetting", serif;
+    margin-bottom:  .13157894736842105%; /* 1 / 760 */
+    text-align: center;
+    margin: 0 auto;
+    border-right: 6px solid black;
+    line-height: 120%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
